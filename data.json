@@ -1,0 +1,34 @@
+[
+    {
+      "supplier": "XYZ Electronics",
+      "event_type": "quality_incident",
+      "description": "30% of delivered circuit boards were damaged",
+      "defect_rate": 0.30,
+      "severity": 0.9, 
+      "date": "2025-12-15" 
+    },
+    {
+      "supplier": "XYZ Electronics",
+      "event_type": "quality_incident",
+      "description": "Packaging failure caused moisture damage",
+      "defect_rate": 0.18,
+      "severity": 0.7,
+      "date": "2025-10-02"
+    },
+    {
+      "supplier": "ABC Components",
+      "event_type": "quality_incident",
+      "description": "Minor scratches on metal casing",
+      "defect_rate": 0.05,
+      "severity": 0.2,
+      "date": "2025-11-11"
+    },
+    {
+      "supplier": "XYZ Electronics",
+      "event_type": "delivery_delay",
+      "description": "Shipment delayed due to transport strike",
+      "defect_rate": 0.0,
+      "severity": 0.4,
+      "date": "2025-09-01"
+    }
+  ]
