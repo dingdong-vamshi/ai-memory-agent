@@ -1,0 +1,29 @@
+[
+  {
+    "supplier": "XYZ Electronics",
+    "pattern": "seasonal_quality_risk",
+    "memory_type": "knowledge",
+    "confidence": 0.9,
+    "date": "2025-11-01",
+    "description": "supplier has recurring quality issues during summer months -- packaging is heat sensitive",
+    "severity": 0.7
+  },
+  {
+    "supplier": "XYZ Electronics",
+    "pattern": "logistics_issue_warehouse_a",
+    "memory_type": "knowledge",
+    "confidence": 0.8,
+    "date": "2024-09-01",
+    "description": "Warehouse A had road damage during monsoon July 2024 -- 9+ hour delays and 10000 extra handling cost",
+    "severity": 0.6
+  },
+  {
+    "supplier": "XYZ Electronics",
+    "pattern": "dispute_history",
+    "memory_type": "knowledge",
+    "confidence": 0.5,
+    "date": "2025-06-01",
+    "description": "supplier disputed an invoice 8 months ago claiming non-receipt -- finance team involved",
+    "severity": 0.8
+  }
+]

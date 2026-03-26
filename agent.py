@@ -6,25 +6,25 @@ def main():
     print("Business Decision Agent")
     print("-----------------------")
 
-    name = input("Supplier name: ")
+    name = input("Supplier name: ") 
 
-    mem = Memory()
-    brain = Think()
+    mem = Memory() 
+    brain = Think() 
 
-    data = mem.get_memories(name)
+    data = mem.get_memories(name) 
 
-    print("\nmemories found:", len(data))
+    print("\nmemories found:", len(data)) 
 
-    r, reasons = brain.risk(data)
-    act = brain.action(r)
+    r, reasons = brain.risk(data) 
+    act = brain.action(r) 
 
-    print("\nwhy?")
-    for i in reasons:
-        print("-", i)
+    print("\nwhy?") 
+    for i in reasons: 
+        print("-", i) 
 
-    print("\nrisk:", round(r,2))
-    print("decision:", act)
+    print("\nrisk:", round(r,2)) 
+    print("decision:", act) 
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": 
+    main() 

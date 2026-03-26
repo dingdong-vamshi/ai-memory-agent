@@ -29,6 +29,6 @@
       "description": "Shipment delayed due to transport strike",
       "defect_rate": 0.0,
       "severity": 0.4,
-      "date": "2025-09-01"
+      "date": "2025-09-01" 
     }
   ]

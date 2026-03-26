@@ -1,0 +1,9 @@
+{
+  "supplier": "XYZ Electronics",
+  "issue_date": "2026-03-10",
+  "delivery_date": "2026-04-05",
+  "ship_to": "Warehouse A",
+  "quantity": 700,
+  "item": "circuit boards",
+  "po_number": "PO-2026-031"
+}
